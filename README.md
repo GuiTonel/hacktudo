@@ -1,7 +1,7 @@
 # Hackathon - Desenvelopers
 
 ### Projeto eCoop
-
+![ecoop-1](https://user-images.githubusercontent.com/66282650/96387588-9a289d00-1179-11eb-878a-56c9bc003982.png)
 
 ### Representação grafica para o nosso modelo base de negócio
 Um fluxo comum do produto desde o momento de sua venda, até a entrega para o seu comprador
