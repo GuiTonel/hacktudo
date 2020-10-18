@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saas</title>
+
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+    <link rel="stylesheet" href="./images/Frame.svg" />
+    <link
+      rel="stylesheet"
+      href="./images/yu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6oiu6o.png"
+    /> -->
+
+    <style>
+      .QR {
+        margin-left: 0px;
+        margin-right: -600px;
+        width: 200px;
+      }
+      .logo {
+        width: 80px;
+        position: absolute;
+        margin: 10px;
+      }
+
+      .corta {
+        display: flex;
+      }
+      .corta,
+      h1 {
+        margin-top: 6px;
+      }
+      .iconify {
+        margin: 10px;
+      }
+      table,
+      th,
+      td {
+        width: 730px;
+        height: 220px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+      }
+      body {
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+      
+    <table>
+      <tr>
+        <th></th>
+      </tr>
+    </table>
+
+    <div class="corta">
+      <span
+        class="iconify"
+        data-icon="icomoon-free:scissors"
+        data-inline="false"
+        style="color: black"
+        data-width="40px"
+        data-rotate="90deg"
+      ></span>
+      <h1>
+        - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+        - - - -
+      </h1>
+    </div>
+
+    <table>
+      <tr>
+        <th style="vertical-align: bottom; width: 1000px;">
+          Recebedor:  {{recebedorNome}}________________________________
+          Assinatura:___________________________ Documento: {{idVenda}}
+        </th>
+        <img class="logo" src="./images/Frame.svg" alt="" />
+
+        <th>
+          <img
+            class="QR"
+            src={{url}}
+            alt=""
+          /><div>{{hash}}</div>
+        </th>
+      </tr>
+      <tr></tr>
+    </table>
+
+    <table>
+      <th style="vertical-align: top">Destinatário
+        <p>{{endDest}}</p></th>
+      
+      <tr></tr>
+      <th style="vertical-align: top">Remetente<p>{{endRem}}</p></th>
+      
+    </table>
+
+  </body>
+</html>
